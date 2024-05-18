@@ -9,6 +9,14 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 10px;
+        transition:opacity 0.17s;
+    }
+
+    .Subscribe-button:hover{
+        opacity:0.8;
+    }
+    .Subscribe-button:active{
+        opacity: 0.5;
     }
 
     .Join-button {
@@ -21,6 +29,14 @@
         height: 36px;
         width: 62px;
         cursor: pointer;
+        transition: background-color 1s; 
+    }
+    .Join-button:hover{
+        background-color: blue;
+        color:aliceblue ;
+    }
+    .Join-button:active{
+        opacity: 0.7;
     }
 
     .Tweet-button {
@@ -34,12 +50,18 @@
         font-size: 15px;
         cursor: pointer;
         margin-left: 10px;
+        transition: box-shadow 0.15s;
+       
 
     }
+    .Tweet-button:hover{
+        box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15); 
+    }
+
 </Style>
 <!--This is the CSS Selector that means which portion we want to select
 ->In CSS Space is defined as a margin
-
+->Pseudo Class 
 
 -->
 <button class="Subscribe-button">SUBSCRIBE</button>
