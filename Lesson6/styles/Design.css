@@ -1,4 +1,4 @@
- .Subscribe-button {
+.Subscribe-button {
      background-color: rgb(200, 0, 0);
      color: white;
      border: none;
@@ -8,9 +8,9 @@
      cursor: pointer;
      margin-right: 10px;
      transition: opacity 0.17s;
- }
+}
 
- .Subscribe-button:hover {
+.Subscribe-button:hover {
      opacity: 0.8;
  }
 
